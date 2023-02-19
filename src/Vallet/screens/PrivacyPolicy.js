@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
           <View>
             <Back
               style={styles.back}
-              onPress={() => navigation.navigate("LandingPage")}
+              onPress={() => navigation.navigate("TabNavigation")}
             />
           </View>
         </TouchableOpacity>

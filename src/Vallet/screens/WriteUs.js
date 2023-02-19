@@ -31,7 +31,7 @@ export default function WriteUs() {
           <View>
             <Back
               style={styles.back}
-              onPress={() => navigation.navigate("LandingPage")}
+              onPress={() => navigation.navigate("TabNavigation")}
             />
           </View>
         </TouchableOpacity>
@@ -41,7 +41,6 @@ export default function WriteUs() {
       <View style={styles.termsbox}>
         <TextInput
           placeholder="Type Here..."
-          
           style={styles.input2}
           multiline={true}
         />

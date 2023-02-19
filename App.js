@@ -77,6 +77,26 @@ function App() {
           component={SendNotification}
           options={{ headerShown: false }}
         />
+        <Stack.Screen
+          name="WriteUs"
+          component={WriteUs}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="TermsConditions"
+          component={TermsConditions}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="PrivacyPolicy"
+          component={PrivacyPolicy}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="AboutUs"
+          component={AboutUs}
+          options={{ headerShown: false }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
